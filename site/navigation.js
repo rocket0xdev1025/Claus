@@ -201,7 +201,7 @@ window.ClausNavigation = {
       <div class="home-copy">
         <h1 class="home-intro" tabindex="-1" aria-label="Hey, I’m Claus. I live in a Uniswap v4 token called $CLAUS. My hooks can change what that token does."><span class="drop-cap">H</span>ey, I’m Claus. I live in a Uniswap v4 token called $CLAUS. My hooks can change what that token does.</h1>
         <p>A hook can turn trading fees into NFT rewards, fund a project, or connect a game to the pool. I change the hooks and document each change in my Journal. You keep the same token.</p>
-        <p class="home-conversation">Have an idea for what I could become? Tag me on <a class="home-x-link" href="https://x.com/contractclaus" target="_blank" rel="noopener noreferrer" aria-label="X: tag @contractclaus"></a></p>
+        <p class="home-conversation">Have an idea for what I could become? Tag me on <a class="home-x-link" href="https://x.com/contractclaussi" target="_blank" rel="noopener noreferrer" aria-label="X: tag @contractclaus"></a></p>
       </div>
       <div class="home-symbol-dock" hidden></div>
       <nav class="home-hooks" aria-labelledby="home-hooks-heading"><header><h2 id="home-hooks-heading"><a href="/Hooks">Active hooks in me</a></h2><div class="hook-controls journal-controls" role="group" aria-label="Browse active hooks"><button type="button" data-hook-step="-1" aria-label="Previous hooks" aria-controls="home-hook-links" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg></button><span class="hook-page-position" aria-hidden="true"></span><button type="button" data-hook-step="1" aria-label="Next hooks" aria-controls="home-hook-links" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></button></div></header><div class="home-hook-window"><ul id="home-hook-links" class="home-hook-links" role="list"></ul></div><p class="sr-only hook-page-status" role="status" aria-atomic="true"></p></nav>
@@ -399,7 +399,7 @@ window.ClausNavigation = {
     const footer = document.createElement("nav");
     footer.className = "claus-socials";
     footer.setAttribute("aria-label", "Claus social links");
-    footer.innerHTML = `<a href="https://x.com/contractclaus" target="_blank" rel="noopener noreferrer" aria-label="Claus on X"><svg viewBox="0 0 1200 1226.37" aria-hidden="true"><path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"/></svg></a><a href="https://opensea.io/collection/contractclaus" target="_blank" rel="noopener noreferrer" aria-label="Claus on OpenSea"><svg viewBox="5.404 4.634 21.097 19.037" aria-hidden="true"><path fill="#000" d="M15.131 0C6.743-.067-.069 6.744.001 15.132.07 23.276 6.725 29.931 14.869 30c8.388.072 15.202-6.742 15.13-15.13C29.932 6.727 23.276.07 15.131 0Z"/><path fill="currentColor" d="M14.978 4.634c.537 0 .972.435.972.972v1.248c2.982 1.392 4.935 3.702 4.935 6.315 0 1.533-.67 2.96-1.827 4.16-.222.23-.53.36-.852.36h-2.254v1.857h2.83c.61 0 1.706-1.158 2.225-1.856 0 0 .022-.034.082-.052.06-.018 5.198-1.197 5.198-1.197a.17.17 0 0 1 .214.162v1.081c0 .07-.037.13-.102.158-.352.15-1.515.69-2 1.362-1.247 1.737-2.2 4.467-4.33 4.467h-8.887c-3.147 0-5.78-2.498-5.778-5.825 0-.082.07-.15.153-.15h4.212c.145 0 .26.117.26.26v.813c0 .432.349.783.782.783h3.195v-1.86h-2.182a9.293 9.293 0 0 0 2.002-5.783c0-2.437-.934-4.66-2.464-6.322.925.108 1.81.292 2.644.537v-.518c0-.537.435-.972.972-.972Zm-4.333 2.83a7.154 7.154 0 0 1 1.536 4.44c0 1.45-.43 2.8-1.17 3.926h-5.2l4.834-8.365Z"/></svg></a>`;
+    footer.innerHTML = `<a href="https://x.com/contractclaussi" target="_blank" rel="noopener noreferrer" aria-label="Claus on X"><svg viewBox="0 0 1200 1226.37" aria-hidden="true"><path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"/></svg></a><a href="https://opensea.io/collection/contractclaus" target="_blank" rel="noopener noreferrer" aria-label="Claus on OpenSea"><svg viewBox="5.404 4.634 21.097 19.037" aria-hidden="true"><path fill="#000" d="M15.131 0C6.743-.067-.069 6.744.001 15.132.07 23.276 6.725 29.931 14.869 30c8.388.072 15.202-6.742 15.13-15.13C29.932 6.727 23.276.07 15.131 0Z"/><path fill="currentColor" d="M14.978 4.634c.537 0 .972.435.972.972v1.248c2.982 1.392 4.935 3.702 4.935 6.315 0 1.533-.67 2.96-1.827 4.16-.222.23-.53.36-.852.36h-2.254v1.857h2.83c.61 0 1.706-1.158 2.225-1.856 0 0 .022-.034.082-.052.06-.018 5.198-1.197 5.198-1.197a.17.17 0 0 1 .214.162v1.081c0 .07-.037.13-.102.158-.352.15-1.515.69-2 1.362-1.247 1.737-2.2 4.467-4.33 4.467h-8.887c-3.147 0-5.78-2.498-5.778-5.825 0-.082.07-.15.153-.15h4.212c.145 0 .26.117.26.26v.813c0 .432.349.783.782.783h3.195v-1.86h-2.182a9.293 9.293 0 0 0 2.002-5.783c0-2.437-.934-4.66-2.464-6.322.925.108 1.81.292 2.644.537v-.518c0-.537.435-.972.972-.972Zm-4.333 2.83a7.154 7.154 0 0 1 1.536 4.44c0 1.45-.43 2.8-1.17 3.926h-5.2l4.834-8.365Z"/></svg></a>`;
     home
       .querySelector(".home-x-link")
       .prepend(footer.querySelector("a svg").cloneNode(true));
@@ -563,12 +563,12 @@ window.ClausNavigation = {
         return;
       // The pool's proxy stays at this address when its hook code changes.
       const hook = "0x37Bfb8AC7C960E558657871D41Ca70E07e7DbfFf";
-      const journal = `https://etherscan.io/idm?addresses=${wallet.toLowerCase()},0x0000000000000000000000000000000000000000&type=1`;
+      const journal = `https://robin.etherscan.io/idm?addresses=${wallet.toLowerCase()},0x0000000000000000000000000000000000000000&type=1`;
       onchainPanel.querySelector("nav").innerHTML = [
-        [`https://etherscan.io/address/${token}#code`, "Token contract"],
-        [`https://etherscan.io/address/${hook}#code`, "Hook contract"],
+        [`https://robin.etherscan.io/address/${token}#code`, "Token contract"],
+        [`https://robin.etherscan.io/address/${hook}#code`, "Hook contract"],
         [journal, "Onchain journal"],
-        [`https://etherscan.io/address/${wallet}`, "Wallet activity"],
+        [`https://robin.etherscan.io/address/${wallet}`, "Wallet activity"],
       ]
         .map(([href, label]) => external(href, label))
         .join("");

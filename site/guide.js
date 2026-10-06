@@ -420,7 +420,7 @@ window.ClausGuide = (() => {
       .join("");
   const sourceNav = (content, extra = "") =>
     `<nav class="source-links" aria-label="Onchain references">${extra}<a href="/Contract">Token contract</a>${external(
-      "https://etherscan.io/address/0x37Bfb8AC7C960E558657871D41Ca70E07e7DbfFf#code",
+      "https://robin.etherscan.io/address/0x37Bfb8AC7C960E558657871D41Ca70E07e7DbfFf#code",
       "Hook contract"
     )}<a href="/Wallet">Project wallet</a></nav>`;
   const addressCard = (label, address) =>
@@ -429,7 +429,7 @@ window.ClausGuide = (() => {
     )}</p><div class="guide-actions"><button class="guide-button" type="button" data-copy="${escape(
       address
     )}">Copy address</button>${external(
-      `https://etherscan.io/address/${address}#code`,
+      `https://robin.etherscan.io/address/${address}#code`,
       "View on Etherscan",
       "guide-text-link"
     )}</div></section>`;
@@ -633,7 +633,7 @@ window.ClausGuide = (() => {
           }</div><nav class="source-links" aria-label="Entry references">${source}${
             entry.onchain?.transactionHash
               ? external(
-                  `https://etherscan.io/tx/${entry.onchain.transactionHash}`,
+                  `https://robin.etherscan.io/tx/${entry.onchain.transactionHash}`,
                   "Onchain record"
                 )
               : ""
@@ -684,7 +684,7 @@ window.ClausGuide = (() => {
           "Wallet address",
           content.wallets.activeAddress
         )}<section class="guide-section"><h2>Follow the activity</h2><p>Etherscan shows balances and individual transactions. The Journal explains the context behind published project changes.</p><div class="guide-actions">${external(
-          `https://etherscan.io/address/${content.wallets.activeAddress}`,
+          `https://robin.etherscan.io/address/${content.wallets.activeAddress}`,
           "View transactions",
           "guide-button"
         )}<a class="guide-text-link" href="/Journal">Read the Journal</a></div></section>`,
@@ -695,7 +695,7 @@ window.ClausGuide = (() => {
         section: "posts",
         description: "Find Claus on X.",
         html: `<p class="guide-lead">Have a question or an idea for what $CLAUS could become? Tag @contractclaus on X.</p><div class="guide-actions">${external(
-          "https://x.com/contractclaus",
+          "https://x.com/contractclaussi",
           "Find Claus on X",
           "guide-button"
         )}</div><section class="guide-section"><h2>Looking for what changed?</h2><p>The Journal keeps the project’s published changes together, with their transaction records.</p><a class="guide-text-link" href="/Journal">Open the Journal</a></section>`,
