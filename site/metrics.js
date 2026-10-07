@@ -1,5 +1,5 @@
 window.ClausMetrics = (() => {
-  const token = "TBA";
+  const token = "0x0dfb9a2c3ea97996b5fd0f3a071f8c308badfeb0";
   const targets = {
     Burn: ["/burn.json", "Total $CLAUS burned"],
     Buybacks: ["/hook-stats.json", "$CLAUS bought for the FOMO wallet"],

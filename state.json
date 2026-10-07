@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "revision": "website:57d8a47b3c71c2a8d5e59e0618969ac3921af882f14ed3091d1bd80c4083a29f",
   "updatedAt": "2026-10-06T21:46:01.592Z",
-  "projectId": "editorial:TBA",
+  "projectId": "editorial:0x0dfb9a2c3ea97996b5fd0f3a071f8c308badfeb0",
   "token": {
     "name": "Claus",
     "ticker": "CLAUS",
-    "address": "TBA"
+    "address": "0x0dfb9a2c3ea97996b5fd0f3a071f8c308badfeb0"
   },
   "hook": { "implementation": null, "version": null },
   "functions": [
